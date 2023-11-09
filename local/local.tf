@@ -3,6 +3,14 @@ resource "local_file" "exemplo" {
     filename = "${path.module}/exemplo.txt"
 }
 
+data "local_file" "conteudo-exemplo" {
+    filename = "${path.module}/exemplo.txt"
+}
+
+output "data-source-result" {
+    value = data.local_file.conteudo-exemplo.content_base64
+}
+
 variable "conteudo" {
   type = string
   default = "Hellow World"

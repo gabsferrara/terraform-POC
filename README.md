@@ -9,3 +9,6 @@ Exemplo = nome do recurso
 resource "local_file" "exemplo" {
     
 }
+
+calculadora de subnets:
+https://jodies.de/ipcalc
