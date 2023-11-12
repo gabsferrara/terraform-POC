@@ -1,2 +1,3 @@
 *.terraform*
 *credenciais.txt
+*kubeconfig
