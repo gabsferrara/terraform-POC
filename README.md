@@ -11,18 +11,21 @@ O Terraform é uma ferramenta criada pela HashiCorp de infraestrutura como códi
 ## Propósito e resumo
 Esta POC foi feita com o intuito de registrar meus estudos/contato inicial com o Terraform servindo como base para maiores aprofundamentos no futuro. Este provisiona tanto um arquivo [local](https://github.com/gabsferrara/terraform-POC/tree/main/local), quanto uma estrutura na [AWS](https://aws.amazon.com/pt/). Sendo que a estrutura de arquivos para o provisionamento na AWS esta disponível em dois formatos, um com arquivos declarativos mais *diretos* (configuração monolítica) disponível na branch [main](https://github.com/gabsferrara/terraform-POC/tree/main/aws) e com um formato usando module (configuração modular) disponível na branch [feature/module](https://github.com/gabsferrara/terraform-POC/tree/feature/modules/aws).
 ## Principais comandos
-``
+```
 terraform init
-``
+```
 
-``
-terraform plan``
+```
+terraform plan
+```
 
-``
-terraform apply``
+```
+terraform apply
+```
 
-``
-terraform destroy``
+```
+terraform destroy
+```
 
 
 ## Elementos/blocos usados na POC
