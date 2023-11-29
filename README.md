@@ -14,10 +14,13 @@ Esta POC foi feita com o intuito de registrar meus estudos/contato inicial com o
 ``
 terraform init
 ``
+
 ``
 terraform plan``
+
 ``
 terraform apply``
+
 ``
 terraform destroy``
 
